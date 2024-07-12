@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'flask_app'
-        REGISTRY = 'sravankumar0338'
+        REGISTRY = 'docker.io'
     }
 
     stages {
