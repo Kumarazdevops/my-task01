@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'flask_app'
-        REGISTRY = 'docker.io'
+        DOCKER_IMAGE = 'flask_app .'
+        REGISTRY = 'https://hub.docker.com/repository/docker/sravankumar0338/'
     }
 
     stages {
