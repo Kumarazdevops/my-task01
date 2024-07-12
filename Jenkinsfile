@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'flask_app'
-        REGISTRY = 'your-docker-registry'
+        REGISTRY = 'sravankumar0338'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/your-github-username/your-repo.git'
+                git branch: 'master', url: 'https://github.com/Kumarazdevops/my-task01.git'
             }
         }
 
